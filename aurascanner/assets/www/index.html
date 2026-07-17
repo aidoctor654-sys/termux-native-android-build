@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Aura Scanner</title>
+<style>
+  body{margin:0;background:#0a0612;color:#e8d8ff;font:16px/1.5 -apple-system,system-ui,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:24px}
+  .card{max-width:420px;padding:32px;border-radius:16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+  h1{font-size:22px;margin:0 0 8px;font-weight:300;letter-spacing:.5px}
+  p{opacity:.7;margin:8px 0}
+  .orb{width:96px;height:96px;border-radius:50%;margin:0 auto 16px;background:radial-gradient(circle at 30% 30%,#fff,#a17fff 40%,#5b2bff 80%);box-shadow:0 0 40px rgba(120,80,255,.6),inset 0 0 20px rgba(255,255,255,.4);animation:pulse 3s ease-in-out infinite}
+  @keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.08);opacity:1}}
+  button{margin-top:16px;padding:12px 24px;border-radius:24px;border:0;background:linear-gradient(135deg,#7d4fff,#3a1f99);color:#fff;font-size:15px;letter-spacing:.5px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="orb"></div>
+  <h1>Aura Scanner</h1>
+  <p>π APK Builder — Termux native shell</p>
+  <p>Replace assets/www/ with your PWA. WebView loads <code>file:///www/index.html</code> from private files dir.</p>
+  <button onclick="document.body.style.background='#1a0f2e'">Reveal</button>
+</div>
+</body>
+</html>
